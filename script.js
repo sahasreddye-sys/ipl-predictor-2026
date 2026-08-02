@@ -274,12 +274,12 @@ function buildVenues() {
         <div class="venue-bar-row">
           <div class="venue-label" style="min-width:28px;font-size:.7rem">BAT</div>
           <div class="venue-bar-bg"><div class="venue-bar-fill bat-fill" style="width:${bf}%"></div></div>
-          <div class="venue-pct" style="color:#ff6b35">${bf}%</div>
+          <div class="venue-pct" style="color:#ffb020">${bf}%</div>
         </div>
         <div class="venue-bar-row">
           <div class="venue-label" style="min-width:28px;font-size:.7rem">CHASE</div>
           <div class="venue-bar-bg"><div class="venue-bar-fill chase-fill" style="width:${cf}%"></div></div>
-          <div class="venue-pct" style="color:#3498db">${cf}%</div>
+          <div class="venue-pct" style="color:#22d3d3">${cf}%</div>
         </div>
       </div>`;
   });
@@ -650,11 +650,11 @@ let charts = {};
 function getChartColors() {
   const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
   return {
-    text:  isDark ? '#e0e4ef' : '#2d3748',
-    text2: isDark ? '#8b93a8' : '#555f6e',
+    text:  isDark ? '#eef2ee' : '#0f1a13',
+    text2: isDark ? '#8fa198' : '#4b5c52',
     // sns.set_theme(style='whitegrid') — light: white bg, visible grey grid
-    grid:  isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.12)',
-    bg:    isDark ? '#1a2030' : '#ffffff',
+    grid:  isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.10)',
+    bg:    isDark ? '#131b16' : '#ffffff',
     // zero-line for NRR chart
     zero:  isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.5)',
   };
@@ -665,7 +665,7 @@ function buildCharts() {
   Object.values(charts).forEach(c => c.destroy());
   charts = {};
   Chart.defaults.color = cc.text;
-  Chart.defaults.font.family = "'DM Sans', sans-serif";
+  Chart.defaults.font.family = "'Hanken Grotesk', sans-serif";
 
   // 1. viz_standings_points — barh(team, points, color=team_colors)
   const ptsSorted = [...STANDINGS].sort((a,b) => a.pts - b.pts);

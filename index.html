@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>IPL Prediction Model 2026</title>
+<title>IPL Insight Engine — 2026 Match Prediction Analytics</title>
+<meta name="description" content="A multi-model ensemble platform predicting IPL 2026 outcomes from live Cricsheet data, six trained classifiers, and 50,000 Monte Carlo simulations."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="styles.css"/>
 </head>
@@ -56,55 +57,62 @@
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-content fade-up">
-    <div class="hero-badge">🏏 IPL 2026 · Machine Learning Analytics</div>
+    <div class="hero-kicker">IPL 2026 <span>·</span> Machine-Learning Match Analytics</div>
     <h1 class="hero-title">IPL Insight<br/>Engine</h1>
-    <p class="hero-sub">A multi-model ensemble sports analytics platform predicting match outcomes using live Cricsheet data, feature engineering, and 50,000-iteration Monte Carlo simulations.</p>
+    <p class="hero-sub">A multi-model ensemble platform predicting match outcomes from live Cricsheet data — engineered features, six trained classifiers, and 50,000 Monte Carlo tournament simulations.</p>
     <div class="hero-ctas">
-      <button class="btn-primary" onclick="document.getElementById('predictor').scrollIntoView({behavior:'smooth'})">🎯 Predict a Match</button>
-      <button class="btn-ghost" onclick="document.getElementById('cricket101').scrollIntoView({behavior:'smooth'})">Learn How It Works</button>
+      <button class="btn-primary" onclick="document.getElementById('predictor').scrollIntoView({behavior:'smooth'})">Predict a Match</button>
+      <button class="btn-ghost" onclick="document.getElementById('cricket101').scrollIntoView({behavior:'smooth'})">How It Works</button>
     </div>
-    <div class="hero-stats">
-      <div class="stat-item"><div class="stat-num">6</div><div class="stat-lbl">ML Models</div></div>
-      <div class="stat-item"><div class="stat-num">50K</div><div class="stat-lbl">Simulations</div></div>
-      <div class="stat-item"><div class="stat-num">11</div><div class="stat-lbl">Features</div></div>
-      <div class="stat-item"><div class="stat-num">~68%</div><div class="stat-lbl">CV Accuracy</div></div>
-      <div class="stat-item"><div class="stat-num">Live</div><div class="stat-lbl">Cricsheet Data</div></div>
-    </div>
+  </div>
+  <div class="scoreboard-strip fade-up">
+    <div class="sb-item"><span class="sb-num">6</span><span class="sb-lbl">ML Models</span></div>
+    <div class="sb-item"><span class="sb-num">50K</span><span class="sb-lbl">Simulations</span></div>
+    <div class="sb-item"><span class="sb-num">11</span><span class="sb-lbl">Features</span></div>
+    <div class="sb-item"><span class="sb-num">~68%</span><span class="sb-lbl">CV Accuracy</span></div>
+    <div class="sb-item"><span class="sb-num">Live</span><span class="sb-lbl">Cricsheet Data</span></div>
   </div>
 </section>
 
 <!-- CRICKET 101 -->
 <section id="cricket101">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Beginner Guide</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Cricket 101</h2>
       <p class="section-desc">New to cricket? Here's everything you need to understand this project.</p>
     </div>
-    <div class="cards-4">
-      <div class="info-card fade-up">
-        <div class="ic-icon">🏏</div>
-        <h3>What is Cricket?</h3>
-        <p>Cricket is a bat-and-ball sport played between two teams of 11. One team bats, trying to score "runs," while the other bowls and fields, trying to take "wickets" (dismissals). The team with the most runs wins.</p>
+    <div class="index-list">
+      <div class="index-row fade-up">
+        <span class="index-mark">🏏</span>
+        <div class="index-body">
+          <h3>What is Cricket?</h3>
+          <p>Cricket is a bat-and-ball sport played between two teams of 11. One team bats, trying to score "runs," while the other bowls and fields, trying to take "wickets" (dismissals). The team with the most runs wins.</p>
+        </div>
       </div>
-      <div class="info-card fade-up">
-        <div class="ic-icon">🏆</div>
-        <h3>What is the IPL?</h3>
-        <p>The Indian Premier League is the world's richest cricket league. Launched in 2008, it features 10 city-based franchises playing Twenty20 (T20) cricket — the shortest, most explosive format, with each team facing just 20 overs (120 balls).</p>
+      <div class="index-row fade-up">
+        <span class="index-mark">🏆</span>
+        <div class="index-body">
+          <h3>What is the IPL?</h3>
+          <p>The Indian Premier League is the world's richest cricket league. Launched in 2008, it features 10 city-based franchises playing Twenty20 (T20) cricket — the shortest, most explosive format, with each team facing just 20 overs (120 balls).</p>
+        </div>
       </div>
-      <div class="info-card fade-up">
-        <div class="ic-icon">📊</div>
-        <h3>How Playoffs Work</h3>
-        <p>The top 4 teams from the group stage qualify. Qualifier 1 (1st vs 2nd) gives both teams two chances. The Eliminator (3rd vs 4th) is sudden death. Qualifier 2 produces the second finalist. The Final crowns the champion.</p>
+      <div class="index-row fade-up">
+        <span class="index-mark">📊</span>
+        <div class="index-body">
+          <h3>How Playoffs Work</h3>
+          <p>The top 4 teams from the group stage qualify. Qualifier 1 (1st vs 2nd) gives both teams two chances. The Eliminator (3rd vs 4th) is sudden death. Qualifier 2 produces the second finalist. The Final crowns the champion.</p>
+        </div>
       </div>
-      <div class="info-card fade-up">
-        <div class="ic-icon">🤖</div>
-        <h3>What This Model Does</h3>
-        <p>It trains 6 ML algorithms on historical IPL data, engineers features like team strength, venue bias, head-to-head records, and toss impact, then runs 50,000 Monte Carlo simulations to estimate each team's championship probability.</p>
+      <div class="index-row fade-up">
+        <span class="index-mark">🤖</span>
+        <div class="index-body">
+          <h3>What This Model Does</h3>
+          <p>It trains 6 ML algorithms on historical IPL data, engineers features like team strength, venue bias, head-to-head records, and toss impact, then runs 50,000 Monte Carlo simulations to estimate each team's championship probability.</p>
+        </div>
       </div>
     </div>
     <div class="glossary fade-up">
-      <h3>📖 Key Terms Glossary</h3>
+      <h3>Key Terms Glossary</h3>
       <div class="glossary-grid">
         <div class="gterm"><span class="gterm-word">Over</span><span class="gterm-def">A set of 6 legal deliveries bowled by one bowler. T20 = 20 overs per innings.</span></div>
         <div class="gterm"><span class="gterm-word">Wicket</span><span class="gterm-def">A dismissal — getting a batter out. Each team has 10 wickets per innings.</span></div>
@@ -122,13 +130,12 @@
 <!-- LIVE SCORES -->
 <section id="livescores">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Recent Matches</div>
-      <h2 class="section-title">Live & Recent Scores</h2>
-      <p class="section-desc">Fetching from public cricket API — falls back to recent IPL results.</p>
+    <div class="section-head fade-up">
+      <h2 class="section-title">Live &amp; Recent Scores</h2>
+      <p class="section-desc">Fetching from a public cricket API — falls back to recent IPL results.</p>
     </div>
     <div class="score-ticker" id="score-ticker">
-      <div class="sc-loading">⏳ Fetching scores…</div>
+      <div class="sc-loading">Fetching scores…</div>
     </div>
   </div>
 </section>
@@ -136,8 +143,7 @@
 <!-- STANDINGS -->
 <section id="standings">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">IPL 2026</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Points Table</h2>
       <p class="section-desc">Live standings derived from Cricsheet match data. Top 4 qualify for playoffs.</p>
     </div>
@@ -158,38 +164,37 @@
 <!-- ANALYTICS -->
 <section id="analytics">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Data Insights</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Season Analytics</h2>
       <p class="section-desc">Visual breakdowns of team performance, batting, bowling, and feature importance.</p>
     </div>
     <div class="charts-grid">
       <div class="chart-card fade-up">
-        <div class="chart-title">📊 IPL 2026 Standings — Points <span>horizontal bar · Cricsheet data</span></div>
+        <div class="chart-title">IPL 2026 Standings — Points <span>horizontal bar · Cricsheet data</span></div>
         <canvas id="pointsChart" height="300"></canvas>
       </div>
       <div class="chart-card fade-up">
-        <div class="chart-title">📉 Net Run Rate <span>green = positive · red = negative</span></div>
+        <div class="chart-title">Net Run Rate <span>green = positive · red = negative</span></div>
         <canvas id="nrrChart" height="300"></canvas>
       </div>
       <div class="chart-card fade-up">
-        <div class="chart-title">💪 Team Strength Index <span>composite score 0–10 · live stats</span></div>
+        <div class="chart-title">Team Strength Index <span>composite score 0–10 · live stats</span></div>
         <canvas id="strengthChart" height="300"></canvas>
       </div>
       <div class="chart-card fade-up">
-        <div class="chart-title">🏏 Top 10 Run Scorers <span>IPL 2026 · live</span></div>
+        <div class="chart-title">Top 10 Run Scorers <span>IPL 2026 · live</span></div>
         <canvas id="battersChart" height="300"></canvas>
       </div>
       <div class="chart-card fade-up">
-        <div class="chart-title">🎯 Top 10 Wicket Takers <span>IPL 2026 · live</span></div>
+        <div class="chart-title">Top 10 Wicket Takers <span>IPL 2026 · live</span></div>
         <canvas id="bowlersChart" height="300"></canvas>
       </div>
       <div class="chart-card fade-up">
-        <div class="chart-title">⚡ Strike Rate vs Average <span>bubble size = runs scored</span></div>
+        <div class="chart-title">Strike Rate vs Average <span>bubble size = runs scored</span></div>
         <canvas id="srAvgChart" height="300"></canvas>
       </div>
-      <div class="chart-card fade-up">
-        <div class="chart-title">🤖 Feature Importance <span>Random Forest · all 11 features</span></div>
+      <div class="chart-card chart-wide fade-up">
+        <div class="chart-title">Feature Importance <span>Random Forest · all 11 features</span></div>
         <canvas id="featureChart" height="300"></canvas>
       </div>
     </div>
@@ -199,10 +204,9 @@
 <!-- VENUE BIAS -->
 <section id="venue">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Ground Analysis</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Venue Pitch Bias</h2>
-      <p class="section-desc">Historical batting-first win rate at each IPL ground. Red = bat first favoured; Blue = chase favoured.</p>
+      <p class="section-desc">Historical batting-first win rate at each IPL ground. Amber = bat first favoured; Cyan = chase favoured.</p>
     </div>
     <div class="venue-grid" id="venue-grid"></div>
   </div>
@@ -211,8 +215,7 @@
 <!-- H2H -->
 <section id="h2h">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Head to Head</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Head-to-Head Records</h2>
       <p class="section-desc">All-time IPL win rates between any two teams from our dataset.</p>
     </div>
@@ -237,8 +240,7 @@
 <!-- PREDICTOR -->
 <section id="predictor">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Interactive Tool</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Match Predictor</h2>
       <p class="section-desc">Choose two teams, venue, and toss details. Our ensemble model returns a win probability instantly.</p>
     </div>
@@ -268,7 +270,7 @@
           </div>
         </div>
       </div>
-      <button class="predict-btn" id="predict-btn" onclick="runPrediction()">⚡ Predict Winner</button>
+      <button class="predict-btn" id="predict-btn" onclick="runPrediction()">Predict Winner</button>
 
       <div id="pred-result">
         <div class="result-vs" id="result-vs"></div>
@@ -298,8 +300,7 @@
 <!-- PLAYOFFS -->
 <section id="playoffs">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Tournament Simulation</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Playoff Bracket</h2>
       <p class="section-desc">Predicted playoff progression based on ensemble model probabilities.</p>
     </div>
@@ -310,18 +311,17 @@
 <!-- MONTE CARLO -->
 <section id="montecarlo">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">50,000 Simulations</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Monte Carlo Championship Odds</h2>
       <p class="section-desc">Each team's probability of reaching the final and winning the title across 50,000 tournament iterations.</p>
     </div>
     <div class="mc-grid fade-up">
       <div class="mc-card">
-        <div class="chart-title">🏆 Title Probability</div>
+        <div class="chart-title">Title Probability</div>
         <canvas id="mcPieChart" height="220"></canvas>
       </div>
       <div class="mc-card">
-        <div class="chart-title">📈 Finals vs Title Odds</div>
+        <div class="chart-title">Finals vs Title Odds</div>
         <div id="mc-bars"></div>
       </div>
     </div>
@@ -331,15 +331,14 @@
 <!-- MODEL PERFORMANCE -->
 <section id="models">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">ML Pipeline</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">Model Performance</h2>
       <p class="section-desc">Six algorithms trained on historical IPL data. Evaluated by test accuracy, AUC-ROC, and 5-fold cross-validation.</p>
     </div>
     <div class="model-grid" id="model-grid"></div>
     <div style="margin-top:2rem">
       <div class="chart-card fade-up">
-        <div class="chart-title">📊 Model Comparison <span>test acc / AUC / CV accuracy</span></div>
+        <div class="chart-title">Model Comparison <span>test acc / AUC / CV accuracy</span></div>
         <canvas id="modelChart" height="200"></canvas>
       </div>
     </div>
@@ -349,39 +348,38 @@
 <!-- ABOUT -->
 <section id="about">
   <div class="section-inner">
-    <div class="fade-up">
-      <div class="section-tag">Project Overview</div>
+    <div class="section-head fade-up">
       <h2 class="section-title">About This Project</h2>
       <p class="section-desc">Built by <a href="https://github.com/sahasreddye-sys" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:700">Sahas Reddy Etikyala</a> — a showcase of applied machine learning, data engineering, and sports analytics.</p>
     </div>
-    <div class="feature-list fade-up">
-      <div class="feature-item">
-        <div class="feat-icon">📡</div>
-        <div class="feat-text"><h4>Live Data Pipeline</h4><p>Pulls real-time match data from Cricsheet.org — updated within 24 hours of each match.</p></div>
+    <div class="index-list fade-up">
+      <div class="index-row">
+        <span class="index-mark">📡</span>
+        <div class="index-body"><h3>Live Data Pipeline</h3><p>Pulls real-time match data from Cricsheet.org — updated within 24 hours of each match.</p></div>
       </div>
-      <div class="feature-item">
-        <div class="feat-icon">⚙️</div>
-        <div class="feat-text"><h4>Feature Engineering</h4><p>11 engineered features: team strength, NRR, h2h win rate, toss impact, venue bias, batting/bowling indexes.</p></div>
+      <div class="index-row">
+        <span class="index-mark">⚙️</span>
+        <div class="index-body"><h3>Feature Engineering</h3><p>11 engineered features: team strength, NRR, h2h win rate, toss impact, venue bias, batting/bowling indexes.</p></div>
       </div>
-      <div class="feature-item">
-        <div class="feat-icon">🤖</div>
-        <div class="feat-text"><h4>Ensemble ML</h4><p>Weighted ensemble of Logistic Regression, Random Forest, Gradient Boosting, XGBoost, CatBoost, and LightGBM.</p></div>
+      <div class="index-row">
+        <span class="index-mark">🤖</span>
+        <div class="index-body"><h3>Ensemble ML</h3><p>Weighted ensemble of Logistic Regression, Random Forest, Gradient Boosting, XGBoost, CatBoost, and LightGBM.</p></div>
       </div>
-      <div class="feature-item">
-        <div class="feat-icon">🎲</div>
-        <div class="feat-text"><h4>Monte Carlo Simulator</h4><p>50,000 tournament simulations using vectorized NumPy sampling to generate robust championship probabilities.</p></div>
+      <div class="index-row">
+        <span class="index-mark">🎲</span>
+        <div class="index-body"><h3>Monte Carlo Simulator</h3><p>50,000 tournament simulations using vectorized NumPy sampling to generate robust championship probabilities.</p></div>
       </div>
-      <div class="feature-item">
-        <div class="feat-icon">📊</div>
-        <div class="feat-text"><h4>Interpretable Predictions</h4><p>Every prediction includes per-model votes, feature importance, NL commentary, and a confidence tier label.</p></div>
+      <div class="index-row">
+        <span class="index-mark">📊</span>
+        <div class="index-body"><h3>Interpretable Predictions</h3><p>Every prediction includes per-model votes, feature importance, NL commentary, and a confidence tier label.</p></div>
       </div>
-      <div class="feature-item">
-        <div class="feat-icon">🔗</div>
-        <div class="feat-text"><h4>Shareable Links</h4><p>Encode team/venue/toss in the URL — share any prediction directly with friends or teammates.</p></div>
+      <div class="index-row">
+        <span class="index-mark">🔗</span>
+        <div class="index-body"><h3>Shareable Links</h3><p>Encode team/venue/toss in the URL — share any prediction directly with friends or teammates.</p></div>
       </div>
     </div>
     <div class="fade-up">
-      <p style="font-size:.9rem;color:var(--text2);margin-top:2rem;margin-bottom:.8rem">Tech Stack</p>
+      <p class="tech-label">Tech Stack</p>
       <div class="tech-pills">
         <span class="tech-pill">Python 3.10</span>
         <span class="tech-pill">Scikit-learn</span>

@@ -1,0 +1,511 @@
+{
+  "generated_at": "2026-05-31T18:30:28.705408",
+  "data_source": "Cricsheet.org (live)",
+  "season": "2026",
+  "best_model": "Logistic Regression",
+  "n_simulations": 50000,
+  "standings": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "abbr": "RCB",
+      "color": "#C8102E",
+      "matches": 15,
+      "wins": 10,
+      "defeats": 5,
+      "points": 20,
+      "nrr": 0.0,
+      "strength": 6.788
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "abbr": "SRH",
+      "color": "#FF822A",
+      "matches": 15,
+      "wins": 9,
+      "defeats": 6,
+      "points": 18,
+      "nrr": 0.0,
+      "strength": 4.495
+    },
+    {
+      "team": "Gujarat Titans",
+      "abbr": "GT",
+      "color": "#1C4E9D",
+      "matches": 15,
+      "wins": 9,
+      "defeats": 6,
+      "points": 18,
+      "nrr": 0.0,
+      "strength": 4.602
+    },
+    {
+      "team": "Rajasthan Royals",
+      "abbr": "RR",
+      "color": "#EA1A85",
+      "matches": 15,
+      "wins": 9,
+      "defeats": 6,
+      "points": 18,
+      "nrr": 0.0,
+      "strength": 4.792
+    },
+    {
+      "team": "Punjab Kings",
+      "abbr": "PBKS",
+      "color": "#ED1F24",
+      "matches": 13,
+      "wins": 7,
+      "defeats": 6,
+      "points": 14,
+      "nrr": 0.0,
+      "strength": 5.833
+    },
+    {
+      "team": "Delhi Capitals",
+      "abbr": "DC",
+      "color": "#1D418A",
+      "matches": 14,
+      "wins": 7,
+      "defeats": 7,
+      "points": 14,
+      "nrr": 0.0,
+      "strength": 3.442
+    },
+    {
+      "team": "Chennai Super Kings",
+      "abbr": "CSK",
+      "color": "#F9CD05",
+      "matches": 14,
+      "wins": 6,
+      "defeats": 8,
+      "points": 12,
+      "nrr": 0.0,
+      "strength": 5.0
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "abbr": "KKR",
+      "color": "#3A225E",
+      "matches": 12,
+      "wins": 5,
+      "defeats": 7,
+      "points": 10,
+      "nrr": 0.0,
+      "strength": 3.684
+    },
+    {
+      "team": "Mumbai Indians",
+      "abbr": "MI",
+      "color": "#004B87",
+      "matches": 14,
+      "wins": 4,
+      "defeats": 10,
+      "points": 8,
+      "nrr": 0.0,
+      "strength": 1.854
+    },
+    {
+      "team": "Lucknow Super Giants",
+      "abbr": "LSG",
+      "color": "#0057E7",
+      "matches": 13,
+      "wins": 4,
+      "defeats": 9,
+      "points": 8,
+      "nrr": 0.0,
+      "strength": 0.202
+    }
+  ],
+  "champion_odds": [
+    {
+      "team": "Royal Challengers Bengaluru",
+      "abbr": "RCB",
+      "color": "#C8102E",
+      "champion_pct": 0.4847,
+      "finalist_pct": 0.859
+    },
+    {
+      "team": "Gujarat Titans",
+      "abbr": "GT",
+      "color": "#1C4E9D",
+      "champion_pct": 0.2346,
+      "finalist_pct": 0.4157
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "abbr": "SRH",
+      "color": "#FF822A",
+      "champion_pct": 0.2126,
+      "finalist_pct": 0.595
+    },
+    {
+      "team": "Rajasthan Royals",
+      "abbr": "RR",
+      "color": "#EA1A85",
+      "champion_pct": 0.068,
+      "finalist_pct": 0.1303
+    }
+  ],
+  "matchups": [
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Royal Challengers Bengaluru",
+      "abbr_a": "PBKS",
+      "abbr_b": "RCB",
+      "prob_a": 0.6705,
+      "prob_b": 0.3295
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Sunrisers Hyderabad",
+      "abbr_a": "PBKS",
+      "abbr_b": "SRH",
+      "prob_a": 0.4413,
+      "prob_b": 0.5587
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Rajasthan Royals",
+      "abbr_a": "PBKS",
+      "abbr_b": "RR",
+      "prob_a": 0.2391,
+      "prob_b": 0.7609
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Gujarat Titans",
+      "abbr_a": "PBKS",
+      "abbr_b": "GT",
+      "prob_a": 0.662,
+      "prob_b": 0.338
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Chennai Super Kings",
+      "abbr_a": "PBKS",
+      "abbr_b": "CSK",
+      "prob_a": 0.7547,
+      "prob_b": 0.2453
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "PBKS",
+      "abbr_b": "DC",
+      "prob_a": 0.5291,
+      "prob_b": 0.4709
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "PBKS",
+      "abbr_b": "KKR",
+      "prob_a": 0.3115,
+      "prob_b": 0.6885
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "PBKS",
+      "abbr_b": "MI",
+      "prob_a": 0.1942,
+      "prob_b": 0.8058
+    },
+    {
+      "team_a": "Punjab Kings",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "PBKS",
+      "abbr_b": "LSG",
+      "prob_a": 0.7348,
+      "prob_b": 0.2652
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Sunrisers Hyderabad",
+      "abbr_a": "RCB",
+      "abbr_b": "SRH",
+      "prob_a": 0.7477,
+      "prob_b": 0.2523
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Rajasthan Royals",
+      "abbr_a": "RCB",
+      "abbr_b": "RR",
+      "prob_a": 0.451,
+      "prob_b": 0.549
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Gujarat Titans",
+      "abbr_a": "RCB",
+      "abbr_b": "GT",
+      "prob_a": 0.4436,
+      "prob_b": 0.5564
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Chennai Super Kings",
+      "abbr_a": "RCB",
+      "abbr_b": "CSK",
+      "prob_a": 0.3979,
+      "prob_b": 0.6021
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "RCB",
+      "abbr_b": "DC",
+      "prob_a": 0.263,
+      "prob_b": 0.737
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "RCB",
+      "abbr_b": "KKR",
+      "prob_a": 0.4572,
+      "prob_b": 0.5428
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "RCB",
+      "abbr_b": "MI",
+      "prob_a": 0.169,
+      "prob_b": 0.831
+    },
+    {
+      "team_a": "Royal Challengers Bengaluru",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "RCB",
+      "abbr_b": "LSG",
+      "prob_a": 0.4543,
+      "prob_b": 0.5457
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Rajasthan Royals",
+      "abbr_a": "SRH",
+      "abbr_b": "RR",
+      "prob_a": 0.5353,
+      "prob_b": 0.4647
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Gujarat Titans",
+      "abbr_a": "SRH",
+      "abbr_b": "GT",
+      "prob_a": 0.4285,
+      "prob_b": 0.5715
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Chennai Super Kings",
+      "abbr_a": "SRH",
+      "abbr_b": "CSK",
+      "prob_a": 0.183,
+      "prob_b": 0.817
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "SRH",
+      "abbr_b": "DC",
+      "prob_a": 0.4605,
+      "prob_b": 0.5395
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "SRH",
+      "abbr_b": "KKR",
+      "prob_a": 0.2035,
+      "prob_b": 0.7965
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "SRH",
+      "abbr_b": "MI",
+      "prob_a": 0.2813,
+      "prob_b": 0.7187
+    },
+    {
+      "team_a": "Sunrisers Hyderabad",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "SRH",
+      "abbr_b": "LSG",
+      "prob_a": 0.1313,
+      "prob_b": 0.8687
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Gujarat Titans",
+      "abbr_a": "RR",
+      "abbr_b": "GT",
+      "prob_a": 0.2447,
+      "prob_b": 0.7553
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Chennai Super Kings",
+      "abbr_a": "RR",
+      "abbr_b": "CSK",
+      "prob_a": 0.3183,
+      "prob_b": 0.6817
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "RR",
+      "abbr_b": "DC",
+      "prob_a": 0.5876,
+      "prob_b": 0.4124
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "RR",
+      "abbr_b": "KKR",
+      "prob_a": 0.3385,
+      "prob_b": 0.6615
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "RR",
+      "abbr_b": "MI",
+      "prob_a": 0.52,
+      "prob_b": 0.48
+    },
+    {
+      "team_a": "Rajasthan Royals",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "RR",
+      "abbr_b": "LSG",
+      "prob_a": 0.9108,
+      "prob_b": 0.0892
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Chennai Super Kings",
+      "abbr_a": "GT",
+      "abbr_b": "CSK",
+      "prob_a": 0.8068,
+      "prob_b": 0.1932
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "GT",
+      "abbr_b": "DC",
+      "prob_a": 0.5247,
+      "prob_b": 0.4753
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "GT",
+      "abbr_b": "KKR",
+      "prob_a": 0.9121,
+      "prob_b": 0.0879
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "GT",
+      "abbr_b": "MI",
+      "prob_a": 0.8946,
+      "prob_b": 0.1054
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "GT",
+      "abbr_b": "LSG",
+      "prob_a": 0.8435,
+      "prob_b": 0.1565
+    },
+    {
+      "team_a": "Chennai Super Kings",
+      "team_b": "Delhi Capitals",
+      "abbr_a": "CSK",
+      "abbr_b": "DC",
+      "prob_a": 0.8047,
+      "prob_b": 0.1953
+    },
+    {
+      "team_a": "Chennai Super Kings",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "CSK",
+      "abbr_b": "KKR",
+      "prob_a": 0.6018,
+      "prob_b": 0.3982
+    },
+    {
+      "team_a": "Chennai Super Kings",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "CSK",
+      "abbr_b": "MI",
+      "prob_a": 0.2821,
+      "prob_b": 0.7179
+    },
+    {
+      "team_a": "Chennai Super Kings",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "CSK",
+      "abbr_b": "LSG",
+      "prob_a": 0.2237,
+      "prob_b": 0.7763
+    },
+    {
+      "team_a": "Delhi Capitals",
+      "team_b": "Kolkata Knight Riders",
+      "abbr_a": "DC",
+      "abbr_b": "KKR",
+      "prob_a": 0.4579,
+      "prob_b": 0.5421
+    },
+    {
+      "team_a": "Delhi Capitals",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "DC",
+      "abbr_b": "MI",
+      "prob_a": 0.445,
+      "prob_b": 0.555
+    },
+    {
+      "team_a": "Delhi Capitals",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "DC",
+      "abbr_b": "LSG",
+      "prob_a": 0.7813,
+      "prob_b": 0.2187
+    },
+    {
+      "team_a": "Kolkata Knight Riders",
+      "team_b": "Mumbai Indians",
+      "abbr_a": "KKR",
+      "abbr_b": "MI",
+      "prob_a": 0.3424,
+      "prob_b": 0.6576
+    },
+    {
+      "team_a": "Kolkata Knight Riders",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "KKR",
+      "abbr_b": "LSG",
+      "prob_a": 0.2704,
+      "prob_b": 0.7296
+    },
+    {
+      "team_a": "Mumbai Indians",
+      "team_b": "Lucknow Super Giants",
+      "abbr_a": "MI",
+      "abbr_b": "LSG",
+      "prob_a": 0.6609,
+      "prob_b": 0.3391
+    }
+  ]
+}

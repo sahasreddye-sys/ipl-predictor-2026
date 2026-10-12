@@ -1,5 +1,11 @@
 # IPL Live Predictor v2
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahasreddye-sys/ipl-predictor-2026/blob/main/IPL_Final_Predictor_v2.ipynb)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ensemble-F7931E?logo=scikitlearn&logoColor=white)
+![Data](https://img.shields.io/badge/data-Cricsheet-555)
+![License](https://img.shields.io/badge/license-MIT-blue)# IPL Live Predictor v2
+
 A Google Colab notebook that predicts IPL match outcomes using live data instead of static CSVs. It pulls ball-by-ball and match data directly from [Cricsheet.org](https://cricsheet.org), rebuilds the points table, batting/bowling stats, and venue bias from scratch each run, trains six classification models on historical matches, and produces both single-match predictions and a full playoff Monte Carlo simulation.
 
 ## What changed from v1
